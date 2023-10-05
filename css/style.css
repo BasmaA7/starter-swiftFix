@@ -77,7 +77,7 @@ a:focus {
 }
 
 /*header section*/
-.hero_area {
+.hero_area, .header_section {
   position: relative;
   background-color: #d1e3ff;
 }
@@ -89,7 +89,7 @@ a:focus {
 
 .header_section .header_top {
   padding: 15px 0;
-  background-color: #000000;
+  background-color: #090705;
 }
 
 .header_section .header_top .contact_nav {
@@ -653,7 +653,7 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.contact_section input {
+.contact_section input ,.contact_section select{
   width: 100%;
   border: none;
   height: 50px;
@@ -661,7 +661,7 @@ a:focus {
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
+  color: #000000;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
 }
